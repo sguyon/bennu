@@ -1,6 +1,15 @@
+h1. Summary
+
+Bennue Value product activation (by manufacturer) and verification (by end user)
+
+more info:
+http://www.bennuvalue.com/
+
+
 h1. Bennu
 
 This application was generated with the "rails_apps_composer":https://github.com/RailsApps/rails_apps_composer gem provided by the "RailsApps Project":http://railsapps.github.com/.
+
 
 h2. Diagnostics
 
