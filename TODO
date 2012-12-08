@@ -4,8 +4,11 @@
   x backup linode
   x add DNS bennu.shanghai-tech.com
   x setup nginx  
-  - create folder on server  
   - setup capistrano
+  - create folder on server  
+  - create rvm gemset on server
+  
+
 
 - admin : create manufacturer (user) and send invitation email
 
