@@ -2,6 +2,9 @@ h1. Summary
 
 Bennue Value product activation (by manufacturer) and verification (by end user)
 
+beta:
+http://bennu.shanghai-tech.com/
+
 more info:
 http://www.bennuvalue.com/
 
