@@ -24,3 +24,5 @@ gem 'rvm-capistrano'
 gem 'libv8', '~> 3.11.8'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'therubyracer', :platforms => :ruby
+gem 'fastercsv' # Only required on Ruby 1.8 and below
+gem 'rails_admin'
