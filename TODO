@@ -4,26 +4,26 @@
   x backup linode
   x add DNS bennu.shanghai-tech.com
   x setup nginx  
-  - setup capistrano
-  - create folder on server  
-  - create rvm gemset on server
-  
+  x setup capistrano
+  x create folder on server  
+  x create rvm gemset on server
 
 
 admin
-  - stickers
-  - user
+  x stickers
+  x user
 
 
-- admin : create new sticker
+x admin : create new sticker
 
 - admin : create manufacturer (user) and send invitation email
 - manufacturer : receive email invitation, login, edit account
 
-- manufacturer : activate sticker
+x manufacturer : activate sticker
+- manufacturer : activate sticker (batch)
 
 - manufacturer : edit sticker ?
 
 - client : verify sticker through twitter
 
-- setup google analytics
+- admin : get notified of verification (good or wrong)

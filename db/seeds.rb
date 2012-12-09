@@ -49,14 +49,10 @@ Message.create([
 
 
 ##### STICKERS
-
-# Stickers.create([
-#   {
-    
-#   }
-
-# ])
-
-
-
-
+Sticker.destroy_all
+Sticker.create([
+  {
+    :product_id => "00001",
+    :code => "348920"
+  }
+])
