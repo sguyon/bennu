@@ -10,11 +10,15 @@
   
 
 
-- admin : create manufacturer (user) and send invitation email
+admin
+  - stickers
+  - user
 
-- manufacturer : receive email invitation, login, edit account
 
 - admin : create new sticker
+
+- admin : create manufacturer (user) and send invitation email
+- manufacturer : receive email invitation, login, edit account
 
 - manufacturer : activate sticker
 
@@ -24,3 +28,19 @@
 
 
 - setup google analytics
+
+
+
+
+stickers
+  id:integer
+  code:string
+  manufacturer_id:integer
+  production_date:date ?
+  activated:boolean
+  verified:boolean
+  verifyer:string
+  
+
+sticker.rb:
+belongs_to User
