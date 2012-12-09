@@ -50,7 +50,12 @@ Message.create([
 
 ##### STICKERS
 
+# Stickers.create([
+#   {
+    
+#   }
 
+# ])
 
 
 

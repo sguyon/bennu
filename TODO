@@ -26,21 +26,4 @@ admin
 
 - client : verify sticker through twitter
 
-
 - setup google analytics
-
-
-
-
-stickers
-  id:integer
-  code:string
-  manufacturer_id:integer
-  production_date:date ?
-  activated:boolean
-  verified:boolean
-  verifyer:string
-  
-
-sticker.rb:
-belongs_to User

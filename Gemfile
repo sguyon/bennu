@@ -26,3 +26,5 @@ gem 'libv8', '~> 3.11.8'
 gem 'therubyracer', :platforms => :ruby
 gem 'fastercsv' # Only required on Ruby 1.8 and below
 gem 'rails_admin'
+gem 'writeexcel'
+gem 'spreadsheet'

@@ -1,0 +1,9 @@
+%h1 Stickers Excel Import
+
+= form_tag '/stickers/upload_import', :multipart => true, :method => :post do
+  %p Select XLS file to import:
+  = file_field_tag :file
+  %p= submit_tag 'Upload'
+
+  %p
+    %a{:href => "/sticker_template.xls"} download file template

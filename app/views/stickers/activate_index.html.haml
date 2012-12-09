@@ -1,0 +1,30 @@
+%h1 Stickers list for activation
+%ul
+  %li= "#{@stickers.count} stickers created"
+  %li= "#{@activated.count} stickers activated"
+  %li= "#{@verified.count} stickers verified"
+%br
+%p
+  
+
+.row
+  .span12
+    %table.table-striped.span10
+      %tr
+        %th.span2 product id
+        %th.span2 code
+        %th.span2 activated ?
+        %th.span2 verified ?
+        %th.span2 actions
+
+      - @stickers.each do |sticker|
+        %tr
+          %td= sticker.product_id
+          %td= sticker.code
+          %td= sticker.activated ? "yes" : "no"
+          %td= sticker.verified ? "yes" : "no"
+          %td
+            - if sticker.activated
+              = link_to 'Desactivate', "/stickers/desactivate/#{sticker.id}", :class=> "btn btn-warning" 
+            - else
+              = link_to 'Activate', "/stickers/activate/#{sticker.id}", :class=> "btn btn-success" 

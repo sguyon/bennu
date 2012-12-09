@@ -1,0 +1,14 @@
+= simple_form_for(@sticker) do |f|
+  = f.error_notification
+
+  .form-inputs
+
+    = f.input :product_id
+    = f.input :code
+    = f.hidden_field :user_id, :value => current_user.id
+    = f.input :production_date, :required => true
+    = f.association :message, :required => true
+    = f.hidden_field :activated, :value => 1
+
+  .form-actions
+    = f.button :submit
